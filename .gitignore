@@ -1,0 +1,5 @@
+.DS_Store
+*.sql
+*.csv
+*.swp
+venv/
