@@ -13,13 +13,13 @@ To run these scripts, you will need:
 - CSV file exported from ebtEDGE app (sign in, then select your card, then go to
   See More > Statements > Email and email the CSV to yourself)
 
-# Aligning EBT data with Cashew data
-`./align_ebt_with_cashew.py cashew.sql ebt.csv` brings Cashew up to date with
-EBT data by ensuring each EBT purchase has a corresponding entry in Cashew.
+### Aligning EBT data with Cashew data
+`align_ebt_with_cashew.py cashew.sql ebt.csv` brings Cashew up to date with EBT
+data by ensuring each EBT purchase has a corresponding entry in Cashew.
 
-# Getting average expenditure
-`./get_avg_expenditure.py cashew.sql` prints the monthly expenses and income
-from the last 12 months and then prints the average monthly expenditure.
+### Getting average expenditure
+`get_avg_expenditure.py cashew.sql` prints the monthly expenses and income from
+the last 12 months and then prints the average monthly expenditure.
 
 I made this script because I became frustated by the the paywall popups in the
 app and I didn't know how to use the GUI to get what I wanted. So this script
