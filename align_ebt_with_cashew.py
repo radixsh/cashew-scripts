@@ -134,7 +134,7 @@ def main():
         ebt_csv = open(sys.argv[2], newline='')
         ebt_reader = csv.DictReader(ebt_csv)
     except:
-        print('Usage: ./analyze.py cashew.sql ebt.csv')
+        print('Usage: ./align_ebt_with_cashew.py cashew.sql ebt.csv')
         sys.exit(0)
 
     # For debugging
